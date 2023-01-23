@@ -93,7 +93,7 @@ fetch(API_URL + "pokemon?limit=151")
 			`;
                     const pokemonCards = document.querySelectorAll(".pokemon-card");
                     const pokemonCard = pokemonCards[pokemonCards.length - 1];
-                    /*if (pokemonTypes[1]) {
+                    if (pokemonTypes[1]) {
                         pokemonCard.style.background =
                             "linear-gradient(150deg," +
                             colors[json.types[0].type.name] +
@@ -102,7 +102,7 @@ fetch(API_URL + "pokemon?limit=151")
                             " 50%)";
                     } else {
                         pokemonCard.style.background = colors[pokemonTypes[0]];
-                    }*/
+                    }
                 });
         });
     });
